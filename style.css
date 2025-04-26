@@ -5,16 +5,24 @@
 }
 
 body {
-    background-color: blue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #12bbb3, #18a0be, #1979ce);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+}
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
 
 .container {
-    background-color: aliceblue;
+    background-color: rgb(22, 172, 165);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(red, green, blue, alpha);
@@ -32,19 +40,19 @@ body {
 
 h1 {
     font-size: 14 px;
-    color: #666;
+    color: #00363a;
 }
 
 p {
     font-size: 14px;
-    color: #666;
+    color: #00363a;
     margin-bottom: 20px;
 }
 
 .links a {
     display: block;
-    background-color: #007bff;
-    color: white;
+    background-color: #00bcd4;
+    color: #00363a;;
     text-decoration: none;
     padding: 12px;
     margin: 8px 0;
@@ -53,5 +61,5 @@ p {
 }
 
 .links a:hover {
-    background-color: #0056b3;
+    background-color: #008ba3;
 }
