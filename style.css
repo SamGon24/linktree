@@ -79,8 +79,22 @@ p {
     min-height: 100vh;
 }
 
-footer {
+
+message {
     margin-top: 30px;
     font-size: 14px;
     color: #00363a;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #00363a;
+}
+
+.gif {
+    width: 35%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
